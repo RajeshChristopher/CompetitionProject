@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://appathonproject:7zmpaavwJT8auvTpSgDEjSeptAsAEZEm29UkAr7dz08mOeogOtVtG8GKhopKqKWz9gpg7nblOtTRByuckyAuow%3D%3D@appathonproject.mongo.cosmos.azure.com:10255/test?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@appathonproject@",{useNewUrlParser:true,useUnifiedTopology:true});
+mongoose.connect("",{useNewUrlParser:true,useUnifiedTopology:true});
 
 mongoose.set("useFindAndModify",false);
 
