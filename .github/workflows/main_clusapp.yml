@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: clusapp
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EC3C4E72B65644F6B3AE79A7061CA8BE }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22E4560397B34C83826CC5B1D9252FE1 }}
         package: .
 
